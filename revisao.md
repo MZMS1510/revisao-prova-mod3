@@ -35,4 +35,6 @@ O SHAP é um modelo que ajuda a identificar o valor de contribuição de cada at
 
 #### Respostas
 
-1. 
+1. Acurácia é o valou que indica a quantidade de classificações corretas em relação a quantidade de predições realizadas. Uma acurácia de 100% significaria que o modelo aprendeu perfeitamente como classificar os dados nos quais ele treinou.
+
+2. A acurácia no conjunto de treinamento constuma ser maior do que a no conjunto de teste, afinal, o modelo já sabe o que ele deve prever nos dados que ele aprendeu, já os dados de teste funcionam como um novo mundo para o modelo, com várias diferenças daquilo que ele já conhece, então ele tentará prever com o que ele já sabe a partir de similaridade
